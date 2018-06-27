@@ -27,5 +27,5 @@ CREATE TABLE projects_pledges (
 
 CREATE TABLE users_pledges (
   user_id INTEGER,
-  pledge_id INTEGER,
+  pledge_id INTEGER
 );
