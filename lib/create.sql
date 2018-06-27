@@ -9,15 +9,15 @@ CREATE TABLE projects (
 
 CREATE TABLE users (
   id INTEGER PRIMARY KEY,
-  name TEXT,
-  age INTEGER
+    name TEXT,
+    age INTEGER
 );
 
-CREATE TABLE pledges (  
+CREATE TABLE pledges (
   id INTEGER PRIMARY KEY,
-  amount REAL,
-  project_id INTEGER,
-  user_id INTEGER
+    amount REAL,
+    project_id INTEGER,
+    user_id INTEGER
 );
 
 CREATE TABLE projects_pledges (
